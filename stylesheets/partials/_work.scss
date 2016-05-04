@@ -1,0 +1,79 @@
+/* ////// Work Section /////// */
+
+.workSection {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 1em 3em 2em 3em;
+     background-image:
+    linear-gradient(
+      to right, 
+    #e5e5e5, #ffffff
+    );
+}
+
+.workList {
+    list-style-type: none;
+    
+}
+
+.workScreenshot {
+    display: inline-block;
+    width: 50%;
+}
+
+.workScreenshotImage {
+    width: 100%;
+}
+
+.centerWorkInfo {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 0;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+}
+
+.workInfoSection {
+    width: 45%;
+    display: inline-block;
+float: right;}
+
+.workTitle {
+    font-size: 1.5em;
+    padding-top: 1em;
+    
+    }
+
+.workText {
+    margin-left: 0.7em;
+    width: 90%;
+    line-height: 1.6em;
+    font-size: 0.9em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#hideoutInfo {}
+
+.centerWork {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+} 

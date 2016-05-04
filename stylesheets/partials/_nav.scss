@@ -1,0 +1,124 @@
+/* //////// General ////// */
+
+.navContainer {
+    background-color: black;
+    
+}
+
+.navWrapper {
+    width: 95%;
+    position: absolute;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: black;
+    top: 100%;
+    transform: translateY(-100%);
+}
+
+/* ////// Emoji Slider ///// */
+
+// Base class
+.emoji-toggle {
+  position: relative;
+  width: 60px;
+  margin: 40px auto;
+  .well {
+    display: block;
+    background: #eee;
+    height: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .toggle {
+    opacity: 0;
+    border: 0;
+    outline: none;
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    position: absolute;
+    cursor: pointer;
+    z-index: 100; 
+    ~.emoji:before {
+      content: "\01F431";
+      position: absolute;
+      left: 0;
+      top: -15px;
+      font-size: 40px;
+      transition: 0.2s;
+    }
+    &:checked {
+      ~.emoji:before {
+        left: 100%;
+        margin-left: -0.9em;
+      }
+    }
+    ~label {
+        color: white;
+      white-space: nowrap;
+      &:before {
+        position: absolute;
+        right: 100%;
+        margin-right: 10px;
+        top: 0;
+      }
+      &:after {
+        position: absolute;
+        left: 100%;
+        margin-left: 10px; 
+        top: 0;
+      }
+    }
+  }
+}
+
+@mixin emojiType($leftEmoji, $rightEmoji, $leftLabel, $rightLabel) {
+  .toggle {
+    ~.emoji:before {
+      content: $leftEmoji;
+    }
+    &:checked {
+      ~.emoji:before {
+        content: $rightEmoji;
+      }
+    }
+     ~label {
+      &:before {
+        content: $leftLabel;
+      }
+      &:after {
+        content: $rightLabel;
+      }
+    }
+  }
+}
+
+.emoji-james {
+  @include emojiType(
+    "\01F454", "\01F47D", "James", "Jimmy"
+  );
+}
+
+
+/* ///////// About Me Images Toggle ///////// */
+
+.emoji-toggle {
+      
+    #toggle1 {
+        
+        &:checked {
+        
+            ~div.jimmyImages {
+                display: initial;  
+        }
+            ~div.jamesImages {
+                display: none;
+            }
+        
+    }
+    
+
+}
+ 
+    
+}

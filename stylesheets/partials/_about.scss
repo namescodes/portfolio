@@ -1,0 +1,283 @@
+/* ///////// General /////////// */
+
+
+.about {
+    width: 100%;
+    background-color: white;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    min-height: 700px;
+}
+
+.aboutContainer {
+   padding: 1em 3em 2em 3em;
+   display: block;
+   background-color: white;
+    
+
+   
+}
+
+/* ///////// About Section /////////// */
+
+.aboutText { 
+    display: block; 
+    padding: 1em;
+    padding-top: 0;
+    line-height: 1.6em;
+    
+}
+
+.aboutMe {
+    width: 50%;
+    display: inline-block;
+}
+
+.aboutText {
+    float: left;
+}
+
+.aboutMeDetailText {
+    margin-left: 0.7em;
+}
+
+/* ///////// General Images /////////// */
+
+
+.imageArea {
+    position: relative;
+    width: 40%;
+    margin: auto 0;
+    float: right;
+}
+
+
+.jimmyImages,
+.jamesImages {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* ///////// James Images /////////// */
+
+.jamesImages {
+    opacity: 1;   
+}
+
+.aboutImg {
+    border-radius: 3px;
+    z-index: 50;
+    height: 300px;
+    width: 300px; 
+    -webkit-box-shadow: 6px 4px 29px -2px rgba(0,0,0,0.46);
+    -moz-box-shadow: 6px 4px 29px -2px rgba(0,0,0,0.46);
+    box-shadow: 6px 4px 29px -2px rgba(0,0,0,0.46);
+    
+}
+
+/* ///////// Jimmy Images /////////// */
+
+
+.jimmyImages {
+    opacity: 0;
+    display: none;
+}
+    
+
+#aboutPlant {
+    z-index: 99;
+    height: 200px;
+    width: 200px;
+    position: absolute;  
+    left: 200px;
+    bottom: 100px;
+ 
+}
+
+#aboutDiv {
+    z-index: 99;
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    left: -100px;
+    bottom: 0px;
+}
+
+#aboutFish {
+    z-index: 99;
+    height: 220px;
+    width: 220px;
+    position: absolute;
+    left: -100px;
+    bottom: 750px;
+
+}
+
+#aboutView {
+    z-index: 49;
+    height: 130px;
+    width: 130px;
+
+    position: absolute;
+
+    /*
+    left: 50px;
+    bottom: 450px;
+    */
+    left: -175px;
+    bottom: 140px;
+    
+}
+
+.x {
+    position: relative;
+    height: 3px;
+    width: 5px;
+    color: transparent;
+    background-color: transparent;
+    border: none; 
+    outline: none;
+}
+
+#jamesX {
+    bottom: 228px;
+    left: 254px;
+}
+
+#plantX {
+    bottom: 277px;
+    left: 405px;
+}
+
+#fishX {
+    bottom: 450px;
+    left: -180px;
+    border: 2px solid red;
+}
+
+#divX {
+    border: 2px solid red;
+    bottom: 337px;
+    left: -138px;
+    z-index: 99;
+}
+
+#viewX {
+    border: 2px solid red;
+    bottom: 250px;
+    left: -150px;
+    z-index: 99;
+}
+
+
+/* ///////// Learning Links /////////// */
+
+.learnContainer { 
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+    cursor: default;
+}
+
+.learnIcon {
+    height: 75px;
+    width: 75px;
+    display: inline-block;
+}
+
+.fccContainer {
+    width: 75px;
+    height: 75px;
+    
+}
+
+#fccIcon {
+    height: 55px;
+    width: 55px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.column {
+    vertical-align: middle;
+    display: inline-block;
+    margin: 0 2em;
+    cursor: default;
+}
+
+.imageBtn:hover {
+    border-radius: 0.4em;
+    opacity: .6;
+    cursor: pointer;
+}
+
+/* ///////// Skill Tags /////////// */
+
+
+.skillList {
+    width: 100%;
+    text-align: center;
+}
+
+.tags {
+    
+    width: 80%;
+    margin: auto 0;
+    display: inline-block;
+    padding-top: 1em;
+    color: #5E5E5E;
+    font-size: 0.8em;
+    cursor: default;
+    text-align: center;
+   
+    li {
+       display: inline-block;
+       border-radius: 5px;
+       padding: 4px 5px;
+        margin: 0.5em;
+       color: #5E5E5E;
+       border: 2px solid lightgrey;
+    }
+    
+    li:hover {
+        background-color: lightgrey;
+        color: white;
+        cursor: default;
+    }
+    
+}
+
+/* ///////// About Me Detail /////////// */
+
+
+.aboutMeDetail {
+    width: 90%;
+    overflow: auto;
+     line-height: 1.6em;
+    font-size: 0.9em;
+    margin-left: 0.7em;
+    padding: 1em;
+}
+
+.aboutMeTitle {
+    max-width: 50%;
+    width: 50%;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    display: inline-block;
+}   
+
+
+.aboutMe {
+    line-height: 1.6em;
+    font-size: 0.9em;
+    margin-left: 0.7em;
+    padding: 1em;
+}
+
+.aboutMeText {
+    margin-left: 0.7em;
+}
