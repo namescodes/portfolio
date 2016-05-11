@@ -22,23 +22,22 @@
 
 .aboutText { 
     display: block; 
-    padding: 1em;
+    padding-bottom: 1em;
     padding-top: 0;
     line-height: 1.6em;
-    
+    float: left;
 }
 
 .aboutMe {
     width: 50%;
     display: inline-block;
-}
-
-.aboutText {
-    float: left;
+    padding-left: 1.3em;
+    line-height: 1.6em;
+    font-size: 0.9em;
 }
 
 .aboutMeDetailText {
-    margin-left: 0.7em;
+
 }
 
 /* ///////// General Images /////////// */
@@ -70,10 +69,6 @@
     z-index: 50;
     height: 300px;
     width: 300px; 
-    -webkit-box-shadow: 6px 4px 29px -2px rgba(0,0,0,0.46);
-    -moz-box-shadow: 6px 4px 29px -2px rgba(0,0,0,0.46);
-    box-shadow: 6px 4px 29px -2px rgba(0,0,0,0.46);
-    
 }
 
 /* ///////// Jimmy Images /////////// */
@@ -224,7 +219,7 @@
 
 .tags {
     
-    width: 80%;
+    width: 100%;
     margin: auto 0;
     display: inline-block;
     padding-top: 1em;
@@ -256,10 +251,10 @@
 .aboutMeDetail {
     width: 90%;
     overflow: auto;
-     line-height: 1.6em;
+    line-height: 1.6em;
     font-size: 0.9em;
-    margin-left: 0.7em;
-    padding: 1em;
+    padding-left: 1.4em;
+    padding-top: 1em;
 }
 
 .aboutMeTitle {
@@ -268,16 +263,10 @@
     font-size: 1.5em;
     margin-bottom: 1em;
     display: inline-block;
+    letter-spacing: 2px;
 }   
 
 
-.aboutMe {
-    line-height: 1.6em;
-    font-size: 0.9em;
-    margin-left: 0.7em;
-    padding: 1em;
-}
-
 .aboutMeText {
-    margin-left: 0.7em;
+
 }

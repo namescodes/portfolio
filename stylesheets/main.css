@@ -448,7 +448,7 @@ html, body, div, span, h1, h2, h3, p, a, img, ul, li, aside, figure, nav {
   width: 50%;
   font-size: 2em;
   margin-left: 0.7em;
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
   margin-top: 0.5em;
   display: inline-block;
   letter-spacing: 2px; }
@@ -508,7 +508,7 @@ html, body, div, span, h1, h2, h3, p, a, img, ul, li, aside, figure, nav {
 .footerNav li {
   margin-top: 1em;
   margin-bottom: 1em;
-  margin-left: 4em; }
+  margin-left: 1.5em; }
 
 .footerNav li a {
   color: black;
@@ -538,19 +538,17 @@ html, body, div, span, h1, h2, h3, p, a, img, ul, li, aside, figure, nav {
 /* ///////// About Section /////////// */
 .aboutText {
   display: block;
-  padding: 1em;
+  padding-bottom: 1em;
   padding-top: 0;
-  line-height: 1.6em; }
+  line-height: 1.6em;
+  float: left; }
 
 .aboutMe {
   width: 50%;
-  display: inline-block; }
-
-.aboutText {
-  float: left; }
-
-.aboutMeDetailText {
-  margin-left: 0.7em; }
+  display: inline-block;
+  padding-left: 1.3em;
+  line-height: 1.6em;
+  font-size: 0.9em; }
 
 /* ///////// General Images /////////// */
 .imageArea {
@@ -573,10 +571,7 @@ html, body, div, span, h1, h2, h3, p, a, img, ul, li, aside, figure, nav {
   border-radius: 3px;
   z-index: 50;
   height: 300px;
-  width: 300px;
-  -webkit-box-shadow: 6px 4px 29px -2px rgba(0, 0, 0, 0.46);
-  -moz-box-shadow: 6px 4px 29px -2px rgba(0, 0, 0, 0.46);
-  box-shadow: 6px 4px 29px -2px rgba(0, 0, 0, 0.46); }
+  width: 300px; }
 
 /* ///////// Jimmy Images /////////// */
 .jimmyImages {
@@ -694,7 +689,7 @@ html, body, div, span, h1, h2, h3, p, a, img, ul, li, aside, figure, nav {
   text-align: center; }
 
 .tags {
-  width: 80%;
+  width: 100%;
   margin: auto 0;
   display: inline-block;
   padding-top: 1em;
@@ -720,24 +715,16 @@ html, body, div, span, h1, h2, h3, p, a, img, ul, li, aside, figure, nav {
   overflow: auto;
   line-height: 1.6em;
   font-size: 0.9em;
-  margin-left: 0.7em;
-  padding: 1em; }
+  padding-left: 1.4em;
+  padding-top: 1em; }
 
 .aboutMeTitle {
   max-width: 50%;
   width: 50%;
   font-size: 1.5em;
   margin-bottom: 1em;
-  display: inline-block; }
-
-.aboutMe {
-  line-height: 1.6em;
-  font-size: 0.9em;
-  margin-left: 0.7em;
-  padding: 1em; }
-
-.aboutMeText {
-  margin-left: 0.7em; }
+  display: inline-block;
+  letter-spacing: 2px; }
 
 /* //////// General ////// */
 .navContainer {
