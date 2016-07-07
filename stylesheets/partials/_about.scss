@@ -13,7 +13,7 @@
    padding: 1em 3em 2em 3em;
    display: block;
    background-color: white;
-    
+   min-width: 100%;
 
    
 }
@@ -22,8 +22,7 @@
 
 .aboutText { 
     display: block; 
-    padding: 1em;
-    padding-top: 0;
+    padding-bottom: 1em;
     line-height: 1.6em;
     
 }
@@ -70,9 +69,6 @@
     z-index: 50;
     height: 300px;
     width: 300px; 
-    -webkit-box-shadow: 6px 4px 29px -2px rgba(0,0,0,0.46);
-    -moz-box-shadow: 6px 4px 29px -2px rgba(0,0,0,0.46);
-    box-shadow: 6px 4px 29px -2px rgba(0,0,0,0.46);
     
 }
 
@@ -177,7 +173,7 @@
     width: 100%;
     text-align: center;
     display: inline-block;
-    margin: 0 auto;
+    margin: 20px auto;
     cursor: default;
 }
 
@@ -198,6 +194,14 @@
     width: 55px;
     position: relative;
     top: 10px;
+    left: 10px;
+}
+
+#codeSchool {
+    height: 45px;
+    width: 45px;
+    position: relative;
+    top: 3px;
     left: 10px;
 }
 
@@ -224,7 +228,7 @@
 
 .tags {
     
-    width: 80%;
+    width: 90%;
     margin: auto 0;
     display: inline-block;
     padding-top: 1em;
@@ -276,6 +280,7 @@
     font-size: 0.9em;
     margin-left: 0.7em;
     padding: 1em;
+    padding-top: 0;
 }
 
 .aboutMeText {
