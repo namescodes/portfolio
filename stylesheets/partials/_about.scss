@@ -170,7 +170,7 @@
 /* ///////// Learning Links /////////// */
 
 .learnContainer { 
-    width: 100%;
+    width: 95%;
     text-align: center;
     display: inline-block;
     margin: 20px auto;
@@ -212,6 +212,10 @@
     cursor: default;
 }
 
+.columnFirst {
+    margin-left: 0;
+}
+
 .imageBtn:hover {
     border-radius: 0.4em;
     opacity: .6;
@@ -222,7 +226,7 @@
 
 
 .skillList {
-    width: 100%;
+    width: 95%;
     text-align: center;
 }
 

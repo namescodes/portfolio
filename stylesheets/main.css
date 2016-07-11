@@ -463,7 +463,6 @@ html, body, div, span, h1, h2, h3, p, a, img, ul, li, aside, figure, nav {
   font-weight: 300;
   border-radius: 5px;
   padding: 4px 5px;
-  margin: 0.5em;
   color: blue;
   border: 2px solid blue; }
 
@@ -652,7 +651,7 @@ html, body, div, span, h1, h2, h3, p, a, img, ul, li, aside, figure, nav {
 
 /* ///////// Learning Links /////////// */
 .learnContainer {
-  width: 100%;
+  width: 95%;
   text-align: center;
   display: inline-block;
   margin: 20px auto;
@@ -687,6 +686,9 @@ html, body, div, span, h1, h2, h3, p, a, img, ul, li, aside, figure, nav {
   margin: 0 2em;
   cursor: default; }
 
+.columnFirst {
+  margin-left: 0; }
+
 .imageBtn:hover {
   border-radius: 0.4em;
   opacity: .6;
@@ -694,7 +696,7 @@ html, body, div, span, h1, h2, h3, p, a, img, ul, li, aside, figure, nav {
 
 /* ///////// Skill Tags /////////// */
 .skillList {
-  width: 100%;
+  width: 95%;
   text-align: center; }
 
 .tags {
@@ -836,11 +838,11 @@ html, body, div, span, h1, h2, h3, p, a, img, ul, li, aside, figure, nav {
   margin: auto 0; }
 
 .proItem {
-  margin: 1em;
+  margin: 0.666em;
   text-align: center; }
 
 .proScreenshot img {
-  width: 400px;
+  width: 350px;
   height: 200px; }
 
 .overlay {
