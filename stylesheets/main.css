@@ -827,6 +827,9 @@ html, body, div, span, h1, h2, h3, p, a, img, ul, li, aside, figure, nav {
 .emoji-toggle #toggle1:checked ~ div.jamesImages {
   display: none; }
 
+.emoji-toggle .toggle ~ .emoji:before {
+  left: -3px; }
+
 /* //////// Projects ///////// */
 .proSection {
   height: 100%;
@@ -886,7 +889,8 @@ html, body, div, span, h1, h2, h3, p, a, img, ul, li, aside, figure, nav {
   font-size: 8px;
   position: absolute;
   text-align: center;
-  letter-spacing: 1px; }
+  letter-spacing: 1px;
+  transition: color 1s ease; }
 
 #urlLS {
   top: 6px;
@@ -925,7 +929,8 @@ html, body, div, span, h1, h2, h3, p, a, img, ul, li, aside, figure, nav {
   height: 8px;
   border-radius: 2px;
   margin-left: 49px;
-  margin-right: 32px; }
+  margin-right: 32px;
+  transition: background 2s ease; }
 
 .fake-addr-bar:hover {
   background: rgba(0, 0, 255, 0.8); }
@@ -1052,6 +1057,10 @@ html, body, div, span, h1, h2, h3, p, a, img, ul, li, aside, figure, nav {
     -ms-transform: translate(0, -50%);
     transform: translate(0, -50%);
 } */
+#designHouseWorkScreenshot {
+  right: 50px;
+  position: relative; }
+
 /** skills bar ui **/
 #skillset {
   display: block;
