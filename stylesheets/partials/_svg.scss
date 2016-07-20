@@ -1,0 +1,78 @@
+/* MONITOR */
+
+.monitor .innerScreen {
+  fill: #0000FF;
+}
+
+.monitor text {
+  fill: #fff;
+  font-family: "Courier";
+  font-size: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: type 4s steps(60, end);
+}
+
+/* CLOCK */
+
+.clock .clockSecs {
+  /*transform-origin: 50% 50%;*/
+  -webkit-animation: spin 48s infinite linear;
+  -moz-animation: spin 48s infinite linear;
+  animation: spin 48s infinite linear;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -webkit-transform-origin: 50% 0%;
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -webkit-transform-origin: 50% 0%;
+  }
+}
+
+@-moz-keyframes spin {
+  0% {
+    -moz-transform: rotate(0deg);
+    -moz-transform-origin: 50% 0%;
+  }
+  100% {
+    -moz-transform: rotate(360deg);
+    -moz-transform-origin: 50% 0%;
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+    transform-origin: 0% 0%;
+  }
+  100% {
+    transform: rotate(360deg);
+    transform-origin: 0% 0%;
+  }
+}
+
+/* PLANT */
+
+.plant {}
+
+.plant polygon {
+  fill: #C9C9C9;
+}
+
+.plant path:nth-child(odd) {
+  fill: url(#gradient2);
+}
+
+.plant path:nth-child(even) {
+  fill: url(#gradient1);
+}
+
+/* SPOON */
+.cereal ellipse {
+  transform: rotate(126.33deg);
+  transform-origin: 0% 0%;
+}

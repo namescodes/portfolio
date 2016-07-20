@@ -8,11 +8,18 @@
      background-image:
     linear-gradient(
       to right, 
-         	#cabc92, #e3dcc5 
+        #ffc0cb, #ffd9df 	
     );
 }
-
-.footerContent {}
+//#cabc92, #e3dcc5 
+/*.footerContent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: stretch;
+}*/
 
 .center {
     position: absolute;
@@ -63,3 +70,7 @@
     text-decoration: none;
 }
 
+/*.svgContainer {
+    float: right;
+    width: 50%;
+}*/
