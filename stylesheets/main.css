@@ -463,7 +463,6 @@ html, body, div, span, h1, h2, h3, p, a, img, ul, li, aside, figure, nav {
   font-weight: 300;
   border-radius: 5px;
   padding: 4px 5px;
-  margin: 0.5em;
   color: blue;
   border: 2px solid blue; }
 
@@ -533,13 +532,13 @@ html, body, div, span, h1, h2, h3, p, a, img, ul, li, aside, figure, nav {
 .aboutContainer {
   padding: 1em 3em 2em 3em;
   display: block;
-  background-color: white; }
+  background-color: white;
+  min-width: 100%; }
 
 /* ///////// About Section /////////// */
 .aboutText {
   display: block;
   padding-bottom: 1em;
-  padding-top: 0;
   line-height: 1.6em;
   float: left; }
 
@@ -650,10 +649,10 @@ html, body, div, span, h1, h2, h3, p, a, img, ul, li, aside, figure, nav {
 
 /* ///////// Learning Links /////////// */
 .learnContainer {
-  width: 100%;
+  width: 95%;
   text-align: center;
   display: inline-block;
-  margin: 0 auto;
+  margin: 20px auto;
   cursor: default; }
 
 .learnIcon {
@@ -672,11 +671,21 @@ html, body, div, span, h1, h2, h3, p, a, img, ul, li, aside, figure, nav {
   top: 10px;
   left: 10px; }
 
+#codeSchool {
+  height: 45px;
+  width: 45px;
+  position: relative;
+  top: 3px;
+  left: 10px; }
+
 .column {
   vertical-align: middle;
   display: inline-block;
   margin: 0 2em;
   cursor: default; }
+
+.columnFirst {
+  margin-left: 0; }
 
 .imageBtn:hover {
   border-radius: 0.4em;
@@ -685,11 +694,11 @@ html, body, div, span, h1, h2, h3, p, a, img, ul, li, aside, figure, nav {
 
 /* ///////// Skill Tags /////////// */
 .skillList {
-  width: 100%;
+  width: 95%;
   text-align: center; }
 
 .tags {
-  width: 100%;
+  width: 90%;
   margin: auto 0;
   display: inline-block;
   padding-top: 1em;
@@ -725,6 +734,13 @@ html, body, div, span, h1, h2, h3, p, a, img, ul, li, aside, figure, nav {
   margin-bottom: 1em;
   display: inline-block;
   letter-spacing: 2px; }
+
+.aboutMe {
+  line-height: 1.6em;
+  font-size: 0.9em;
+  margin-left: 0.7em;
+  padding: 1em;
+  padding-top: 0; }
 
 /* //////// General ////// */
 .navContainer {
@@ -818,11 +834,11 @@ html, body, div, span, h1, h2, h3, p, a, img, ul, li, aside, figure, nav {
   margin: auto 0; }
 
 .proItem {
-  margin: 1em;
+  margin: 0.666em;
   text-align: center; }
 
 .proScreenshot img {
-  width: 400px;
+  width: 350px;
   height: 200px; }
 
 .overlay {
@@ -947,6 +963,8 @@ html, body, div, span, h1, h2, h3, p, a, img, ul, li, aside, figure, nav {
 */
 /* ////// Work Section /////// */
 .workSection {
+  max-height: none;
+  height: auto;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   padding: 1em 3em 2em 3em;
@@ -955,59 +973,71 @@ html, body, div, span, h1, h2, h3, p, a, img, ul, li, aside, figure, nav {
 .workList {
   list-style-type: none; }
 
+.workItem {
+  padding-bottom: 50px; }
+
 .workScreenshot {
   display: inline-block;
   width: 50%; }
 
 .workScreenshotImage {
-  width: 100%; }
+  width: 80%;
+  margin: 0 auto; }
 
-.centerWorkInfo {
-  width: 50%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  right: 0;
-  width: 100%;
+#designHouse {
+  max-height: 200px;
+  max-width: 200px;
   margin: 0 auto;
-  box-sizing: border-box;
-  -webkit-transform: translate(0, -50%);
-  -moz-transform: translate(0, -50%);
-  -o-transform: translate(0, -50%);
-  -ms-transform: translate(0, -50%);
-  transform: translate(0, -50%); }
+  display: flex; }
 
+/*.centerWorkInfo {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 0;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+} */
 .workInfoSection {
   width: 45%;
   display: inline-block;
-  float: right; }
+  float: right;
+  position: relative;
+  top: 50%;
+  transform: translateY(10%); }
 
 .workTitle {
-  font-size: 1.5em;
-  padding-top: 1em; }
+  font-size: 1.5em; }
 
 .workText {
-  margin-left: 0.7em;
   width: 90%;
   line-height: 1.6em;
   font-size: 0.9em;
   margin-top: 1em;
   margin-bottom: 1em; }
 
+/*
 .centerWork {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  right: 0;
-  width: 100%;
-  margin: 0 auto;
-  box-sizing: border-box;
-  -webkit-transform: translate(0, -50%);
-  -moz-transform: translate(0, -50%);
-  -o-transform: translate(0, -50%);
-  -ms-transform: translate(0, -50%);
-  transform: translate(0, -50%); }
-
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+} */
 /** skills bar ui **/
 #skillset {
   display: block;

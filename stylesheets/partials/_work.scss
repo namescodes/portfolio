@@ -1,6 +1,8 @@
 /* ////// Work Section /////// */
 
 .workSection {
+    max-height: none;
+    height: auto;
     border-top: 1px solid rgba(255, 255, 255, 0.2);
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     padding: 1em 3em 2em 3em;
@@ -16,16 +18,28 @@
     
 }
 
+.workItem {
+    padding-bottom: 50px;
+}
+
 .workScreenshot {
     display: inline-block;
     width: 50%;
 }
 
 .workScreenshotImage {
-    width: 100%;
+    width: 80%;
+    margin: 0 auto;
 }
 
-.centerWorkInfo {
+#designHouse {
+    max-height: 200px;
+    max-width: 200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+/*.centerWorkInfo {
     width: 50%;
     position: absolute;
     top: 50%;
@@ -39,21 +53,23 @@
     -o-transform: translate(0, -50%);
     -ms-transform: translate(0, -50%);
     transform: translate(0, -50%);
-}
+} */
 
 .workInfoSection {
     width: 45%;
     display: inline-block;
-float: right;}
+float: right;
+    position: relative;
+    top: 50%;
+    transform: translateY(10%);
+
+}
 
 .workTitle {
     font-size: 1.5em;
-    padding-top: 1em;
-    
     }
 
 .workText {
-    margin-left: 0.7em;
     width: 90%;
     line-height: 1.6em;
     font-size: 0.9em;
@@ -62,7 +78,7 @@ float: right;}
 }
 
 #hideoutInfo {}
-
+/*
 .centerWork {
     position: absolute;
     top: 50%;
@@ -76,4 +92,4 @@ float: right;}
     -o-transform: translate(0, -50%);
     -ms-transform: translate(0, -50%);
     transform: translate(0, -50%);
-} 
+} */

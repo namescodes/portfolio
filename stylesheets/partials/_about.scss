@@ -13,7 +13,7 @@
    padding: 1em 3em 2em 3em;
    display: block;
    background-color: white;
-    
+   min-width: 100%;
 
    
 }
@@ -23,7 +23,6 @@
 .aboutText { 
     display: block; 
     padding-bottom: 1em;
-    padding-top: 0;
     line-height: 1.6em;
     float: left;
 }
@@ -169,10 +168,10 @@
 /* ///////// Learning Links /////////// */
 
 .learnContainer { 
-    width: 100%;
+    width: 95%;
     text-align: center;
     display: inline-block;
-    margin: 0 auto;
+    margin: 20px auto;
     cursor: default;
 }
 
@@ -196,11 +195,23 @@
     left: 10px;
 }
 
+#codeSchool {
+    height: 45px;
+    width: 45px;
+    position: relative;
+    top: 3px;
+    left: 10px;
+}
+
 .column {
     vertical-align: middle;
     display: inline-block;
     margin: 0 2em;
     cursor: default;
+}
+
+.columnFirst {
+    margin-left: 0;
 }
 
 .imageBtn:hover {
@@ -213,13 +224,12 @@
 
 
 .skillList {
-    width: 100%;
+    width: 95%;
     text-align: center;
 }
 
 .tags {
-    
-    width: 100%;
+    width: 90%;
     margin: auto 0;
     display: inline-block;
     padding-top: 1em;
@@ -266,6 +276,14 @@
     letter-spacing: 2px;
 }   
 
+
+.aboutMe {
+    line-height: 1.6em;
+    font-size: 0.9em;
+    margin-left: 0.7em;
+    padding: 1em;
+    padding-top: 0;
+}
 
 .aboutMeText {
 
