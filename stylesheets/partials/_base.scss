@@ -4,11 +4,12 @@
 
 html, body {
   height: 100%;
-  background-color: black; 
+  background-color: black;
 }
 
 body {
   font-family: Verdana, Geneva, sans-serif;
+  cursor: crosshair;
 }
 
 ul {
@@ -29,6 +30,11 @@ html, body, div, span, h1, h2, h3, p, a, img, ul, li, aside, figure, nav {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
+}
+
+
+.twennyseventeen {
+  display: none;
 }
 
 //

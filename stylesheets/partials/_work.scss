@@ -1,10 +1,6 @@
 /* ////// Work Section /////// */
 
 .workSection {
-    max-height: none;
-    height: auto;
-    border-top: 1px solid rgba(255, 255, 255, 0.2);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     padding: 1em 3em 2em 3em;
      background-image:
     linear-gradient(
@@ -13,13 +9,9 @@
     );
 }
 
-.workList {
+.workList ul {
     list-style-type: none;
     
-}
-
-.workItem {
-    padding-bottom: 50px;
 }
 
 .workScreenshot {
@@ -28,73 +20,21 @@
 }
 
 .workScreenshotImage {
-    width: 80%;
-    margin: 0 auto;
-}
-
-#designHouse {
-    max-height: 200px;
-    max-width: 200px;
-    margin: 0 auto;
-    display: flex;
-}
-
-/*.centerWorkInfo {
-    width: 50%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    right: 0;
     width: 100%;
-    margin: 0 auto;
-    box-sizing: border-box;
-    -webkit-transform: translate(0, -50%);
-    -moz-transform: translate(0, -50%);
-    -o-transform: translate(0, -50%);
-    -ms-transform: translate(0, -50%);
-    transform: translate(0, -50%);
-} */
+}
 
 .workInfoSection {
     width: 45%;
     display: inline-block;
-float: right;
-    position: relative;
-    top: 50%;
-    transform: translateY(10%);
-
-}
+float: right;}
 
 .workTitle {
     font-size: 1.5em;
+    margin-left: 0.7em;
+    padding-top: 1em;
+    
     }
 
-.workText {
-    width: 90%;
-    line-height: 1.6em;
-    font-size: 0.9em;
-    margin-top: 1em;
-    margin-bottom: 1em;
-}
+.workText {}
 
 #hideoutInfo {}
-/*
-.centerWork {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    right: 0;
-    width: 100%;
-    margin: 0 auto;
-    box-sizing: border-box;
-    -webkit-transform: translate(0, -50%);
-    -moz-transform: translate(0, -50%);
-    -o-transform: translate(0, -50%);
-    -ms-transform: translate(0, -50%);
-    transform: translate(0, -50%);
-} */
-
-#designHouseWorkScreenshot {
-    right: 50px;
-    position: relative;
-}

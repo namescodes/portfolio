@@ -3,17 +3,13 @@
 
 .about {
     width: 100%;
-    background-color: white;
-    border-top: 1px solid rgba(255, 255, 255, 0.2);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-    min-height: 700px;
 }
 
 .aboutContainer {
    padding: 1em 3em 2em 3em;
    display: block;
    background-color: white;
-   min-width: 100%;
+    
 
    
 }
@@ -22,26 +18,19 @@
 
 .aboutText { 
     display: block; 
-    padding-bottom: 1em;
+    padding: 1em;
+    padding-top: 0;
     line-height: 1.6em;
-    float: left;
+    
 }
 
 .aboutMe {
-    width: 50%;
     display: inline-block;
-    padding-left: 1.3em;
-    line-height: 1.6em;
-    font-size: 0.9em;
-}
-
-.aboutMeDetailText {
-
 }
 
 /* ///////// General Images /////////// */
 
-
+.imageContainer,
 .imageArea {
     position: relative;
     width: 40%;
@@ -68,6 +57,10 @@
     z-index: 50;
     height: 300px;
     width: 300px; 
+    -webkit-box-shadow: 6px 4px 29px -2px rgba(0,0,0,0.46);
+    -moz-box-shadow: 6px 4px 29px -2px rgba(0,0,0,0.46);
+    box-shadow: 6px 4px 29px -2px rgba(0,0,0,0.46);
+    
 }
 
 /* ///////// Jimmy Images /////////// */
@@ -168,14 +161,15 @@
 /* ///////// Learning Links /////////// */
 
 .learnContainer { 
-    width: 95%;
+    width: 90%;
     text-align: center;
     display: inline-block;
-    margin: 20px auto;
+    margin: 0 auto;
     cursor: default;
 }
 
 .learnIcon {
+    
     height: 75px;
     width: 75px;
     display: inline-block;
@@ -195,23 +189,11 @@
     left: 10px;
 }
 
-#codeSchool {
-    height: 45px;
-    width: 45px;
-    position: relative;
-    top: 3px;
-    left: 10px;
-}
-
 .column {
     vertical-align: middle;
     display: inline-block;
     margin: 0 2em;
     cursor: default;
-}
-
-.columnFirst {
-    margin-left: 0;
 }
 
 .imageBtn:hover {
@@ -224,16 +206,18 @@
 
 
 .skillList {
-    width: 95%;
+    width: 100%;
     text-align: center;
 }
 
 .tags {
-    width: 90%;
+    
+    width: 66%;
     margin: auto 0;
     display: inline-block;
     padding-top: 1em;
-    color: #5E5E5E;
+    padding-left: 1em;
+    color: darkgrey;
     font-size: 0.8em;
     cursor: default;
     text-align: center;
@@ -243,7 +227,7 @@
        border-radius: 5px;
        padding: 4px 5px;
         margin: 0.5em;
-       color: #5E5E5E;
+       color: lightgrey;
        border: 2px solid lightgrey;
     }
     
@@ -259,32 +243,23 @@
 
 
 .aboutMeDetail {
-    width: 90%;
+    width: 100%;
     overflow: auto;
-    line-height: 1.6em;
-    font-size: 0.9em;
-    padding-left: 1.4em;
-    padding-top: 1em;
 }
 
 .aboutMeTitle {
     max-width: 50%;
     width: 50%;
     font-size: 1.5em;
-    margin-bottom: 1em;
+    margin-left: 0.7em;
+
     display: inline-block;
-    letter-spacing: 2px;
 }   
 
-
 .aboutMe {
+    width: 50%;
     line-height: 1.6em;
     font-size: 0.9em;
     margin-left: 0.7em;
     padding: 1em;
-    padding-top: 0;
-}
-
-.aboutMeText {
-
 }
