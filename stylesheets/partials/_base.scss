@@ -9,7 +9,7 @@ html, body {
 
 body {
   font-family: Verdana, Geneva, sans-serif;
-  cursor: crosshair;
+  cursor: crosshair !important;
 }
 
 ul {
@@ -34,7 +34,7 @@ html, body, div, span, h1, h2, h3, p, a, img, ul, li, aside, figure, nav {
 
 
 .twennyseventeen {
-  display: none;
+  display: none !important;
 }
 
 //
