@@ -3,6 +3,7 @@
     padding: 1em 3em 2em 3em;
     color: white;
      background: lightcoral  !important ;
+     max-width: 1200px;
 }
 
 .footerContent {
@@ -40,4 +41,10 @@
     /*color: #7BBF6A; leaf green*/
     color: #7BBF6A 80%;
     text-decoration: none;
+}
+
+@media (max-width: 561px) {
+  footer img {
+    width: 90%;
+  }
 }

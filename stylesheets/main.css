@@ -449,7 +449,8 @@ html, body, div, span, h1, h2, h3, p, a, img, ul, li, aside, figure, nav {
 .footer {
   padding: 1em 3em 2em 3em;
   color: white;
-  background: lightcoral !important; }
+  background: lightcoral !important;
+  max-width: 1200px; }
 
 .footerHeader {
   font-size: 3em;
@@ -478,6 +479,9 @@ html, body, div, span, h1, h2, h3, p, a, img, ul, li, aside, figure, nav {
   color: #7BBF6A 80%;
   text-decoration: none; }
 
+@media (max-width: 561px) {
+  footer img {
+    width: 90%; } }
 /* ///////// General /////////// */
 .about {
   width: 100%; }
