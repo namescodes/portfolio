@@ -480,7 +480,7 @@ html, body, div, span, h1, h2, h3, p, a, img, ul, li, aside, figure, nav {
   text-decoration: none; }
 
 @media (max-width: 561px) {
-  footer img {
+  .gang {
     width: 90%; } }
 /* ///////// General /////////// */
 .about {
